@@ -1,0 +1,74 @@
+﻿@model CardfightVanguardCapstone.Models.AccountLoginViewModel
+
+@{
+    ViewBag.Title = "LogInOut";
+}
+
+
+
+
+@section scripts{
+
+    @*<script type="text/javascript">
+            function ClearForm() {
+
+                $('#Username').val('');
+                $('#Password').val('');
+                resetValidation();
+                //$.fn.clearErrors = function () {
+                //    $(this).each(function () {
+                //        $(this).find(".field-validation-error").empty();
+                //        $(this).trigger('reset.unobtrusiveValidation');
+                //    });
+                //};
+            }
+            // https://stackoverflow.com/questions/2798427/how-do-i-clear-mvc-client-side-validation-errors-when-a-cancel-button-is-clicked
+            function resetValidation() {
+                ////Removes validation from input-fields
+                //$('.input-validation-error').addClass('input-validation-valid');
+                //$('.input-validation-error').removeClass('input-validation-error');
+                ////Removes validation message after input-fields
+                //$('.field-validation-error').addClass('field-validation-valid');
+                //$('.field-validation-error').removeClass('field-validation-error');
+                ////Removes validation summary
+                //$('.validation-summary-errors').addClass('validation-summary-valid');
+                //$('.validation-summary-errors').removeClass('validation-summary-errors');
+                alert("resetValidation");
+                // – Alexander Puchkov Nov 24 '17 at 19:46
+                $('.field-validation-error').text('');
+            }
+        </script>*@
+
+}
+
+
+<h2>LogIn</h2>
+
+@using (Html.BeginForm("LogInOut", "Admin", FormMethod.Post, new { @class = "form" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+    <div id="">        
+        <br />
+        <div>
+            <div>
+                @Html.LabelFor(model => model.User.Username)
+                @Html.TextBoxFor(model => model.User.Username)
+                @Html.ValidationMessageFor(model => model.User.Username, "", new { @class = "text-danger" })
+            </div>
+            <div>
+                @Html.LabelFor(model => model.User.Password)
+                @Html.TextBoxFor(model => model.User.Password)
+                @Html.ValidationMessageFor(model => model.User.Password, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-success" />
+                @Html.ActionLink("Register", "Register", "Admin", null, new { @class = "btn btn-info" })
+            </div>
+        </div>
+    </div>
+}
+
+
+
+
