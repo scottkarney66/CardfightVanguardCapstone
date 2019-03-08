@@ -1,0 +1,6 @@
+C:\Github\Scottkarney66\scottkarney66\CardfightVanguardCapstone\BuisnessLayer\bin\Debug\BuisnessLayer.dll
+C:\Github\Scottkarney66\scottkarney66\CardfightVanguardCapstone\BuisnessLayer\bin\Debug\BuisnessLayer.pdb
+C:\Github\Scottkarney66\scottkarney66\CardfightVanguardCapstone\BuisnessLayer\obj\Debug\BuisnessLayer.csprojAssemblyReference.cache
+C:\Github\Scottkarney66\scottkarney66\CardfightVanguardCapstone\BuisnessLayer\obj\Debug\BuisnessLayer.csproj.CoreCompileInputs.cache
+C:\Github\Scottkarney66\scottkarney66\CardfightVanguardCapstone\BuisnessLayer\obj\Debug\BuisnessLayer.dll
+C:\Github\Scottkarney66\scottkarney66\CardfightVanguardCapstone\BuisnessLayer\obj\Debug\BuisnessLayer.pdb
