@@ -1,0 +1,6 @@
+C:\Github\Scottkarney66\scottkarney66\CardfightVanguardCapstone\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Github\Scottkarney66\scottkarney66\CardfightVanguardCapstone\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Github\Scottkarney66\scottkarney66\CardfightVanguardCapstone\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+C:\Github\Scottkarney66\scottkarney66\CardfightVanguardCapstone\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Github\Scottkarney66\scottkarney66\CardfightVanguardCapstone\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Github\Scottkarney66\scottkarney66\CardfightVanguardCapstone\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
